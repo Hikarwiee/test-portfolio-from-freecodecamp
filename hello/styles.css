@@ -1,6 +1,12 @@
 body
-{background-color: rosybrown;
-font-family: Arial, sans-serif}
+{
+font-family: 'Poppins', serif;
+background: url(http://127.0.0.1:5500/elements/images/japan-tokyo.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
 
 .business-card{
   width: 300px;
@@ -11,6 +17,10 @@ font-family: Arial, sans-serif}
   font-size: 16px;
   margin-left: auto;
   margin-right: auto;
+  border: 0.3px solid #a4eeff;
+  background: transparent;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
 }
 
 .profile-image{
@@ -20,8 +30,36 @@ font-family: Arial, sans-serif}
 p{
   margin-top: 5px;
   margin-bottom: 5px;
+  cursor:default;
+  color: #dddddd;
 }
 
 a{
   text-decoration: none;
+  cursor:pointer
+}
+
+a:link{
+  color: #a4eeff;
+}
+
+a:visited{
+  color: lightgray;
+}
+
+a:active{
+  color: #f4fdff;
+}
+
+a:hover{
+  color: #94b0da;
+}
+
+h1, h2, h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #59d2fe;
+}
+
+hr{
+  border: 1px solid #cccccc;
 }

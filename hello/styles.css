@@ -17,7 +17,7 @@ background-attachment: fixed;
   font-size: 16px;
   margin-left: auto;
   margin-right: auto;
-  border: 0.3px solid #a4eeff;
+  border: 1px solid #a4eeff;
   background: transparent;
   border-radius: 10px;
   backdrop-filter: blur(10px);
@@ -27,16 +27,24 @@ background-attachment: fixed;
   max-width: 100px
 }
 
+.full-name{
+ font-family: 'Poppins', serif;
+ margin-bottom: auto;
+}
+
 p{
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: auto;
   cursor:default;
   color: #dddddd;
+  font-size: 12px;
 }
 
 a{
   text-decoration: none;
-  cursor:pointer
+  cursor:pointer;
+  font-size: 12px;
+  margin-bottom: auto;
 }
 
 a:link{
@@ -58,8 +66,36 @@ a:hover{
 h1, h2, h3{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #59d2fe;
+  margin-bottom: auto;
 }
 
 hr{
   border: 1px solid #cccccc;
+  margin-bottom: auto;
+}
+
+.position {
+height: 25px;
+width: 120px;
+background-color: #00dfdf;
+border-radius: 20px;
+border-style: solid;
+border: 1px solid black;
+margin-left: auto;
+margin-right: auto;
+font-size: 12px;
+}
+
+.designation{
+  color: black
+}
+
+.company {
+font-size: 12px;
+}
+
+.profile-image{
+  border-radius: 150%;
+  border: 2px solid #99afb4;
+  margin-bottom: -20px;
 }

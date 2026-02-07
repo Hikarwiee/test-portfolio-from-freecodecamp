@@ -1,0 +1,17 @@
+h1, h2, h3{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: auto;
+}
+
+.headers{
+   background: linear-gradient(to right, #397bc7, #59d2fe);
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    position: absolute;
+    margin: -8px;
+}
+
+.title{
+  margin-bottom: 50%;
+}
